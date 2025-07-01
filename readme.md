@@ -104,8 +104,38 @@ npm run dev // this command is used to run the application
 - **useState** is a hook through the help of which we can change the state of a variable
 
 
+#### <p align="center">React Router DOM</p>
+
+- React Router DOM is a library that is used to link the pages with each other
+- by using react router dom we can perform navigation easily
+- in order to install the library in your project 
+  ```js
+  npm i react-router-dom // this command will install the react router dom library in your project
+  ```
+
+  **Note** in react router DOM you can't use the anchor tags instead you should use link tag like
+
+  ```js
+  <Link to="/gallery" >Gallery</Link> // if you used anchor tag your application will be rerendering and reload after clicking on anchor tag
+  ```
+
+
+
+
+#### <p align="center">How to integrate the Bootstrap with the react project</p>
+
+- go to bootstrap documentation and take the css and js links and paste it in to the index.html file of your react project
+
 
  <br>
  
  #### <p align="center">Best extensions</p>
 - ES7 React/Redux/React-Native snippets
+
+ #### <p align="center">React Libraries</p>
+
+- ```React Router Dom``` this is the react library for creating routes for the pages
+
+- ```better React Carousel``` this is the react library used for using carousel in easy way.
+
+- 

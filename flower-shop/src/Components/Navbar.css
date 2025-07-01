@@ -1,0 +1,77 @@
+/* Navbar.css */
+body{
+    background-color: lightblue;
+}
+.custom-navbar {
+  background: linear-gradient(
+    90deg,
+    #000000,
+    #4b0082,
+    #ff69b4
+  );
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  /* optional shadows for “depth” */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+/* semi-transparent glass effect behind navbar items */
+.custom-navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 0;
+}
+
+/* Ensure navbar content sits above the pseudo-element */
+.custom-navbar > .container-fluid {
+  position: relative;
+  z-index: 1;
+}
+
+.custom-navbar .navbar-brand {
+  color: #ff69b4;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffd700;
+}
+
+.custom-navbar .nav-link.active {
+  color: #00ffff;
+}
+
+.custom-navbar .form-control {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #ffffff;
+}
+
+.custom-navbar .form-control::placeholder {
+  color: #e0e0e0;
+}
+
+.custom-navbar .btn-outline-success {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.custom-navbar .btn-outline-success:hover {
+  background-color: #ffffff;
+  color: #4b0082;
+}

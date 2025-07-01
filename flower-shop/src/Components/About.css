@@ -1,0 +1,40 @@
+/* About.css */
+
+.about-section {
+  background-image: url('https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?_gl=1*9kb6wi*_ga*MTc5MDAzNTYxMy4xNzUxMzQ1NzQy*_ga_8JE65Q40S6*czE3NTEzNDU3NDIkbzEkZzEkdDE3NTEzNDU3NTQkajQ4JGwwJGgw');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* overlay color to make text readable */
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  padding: 40px;
+}
+
+.about-content {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.about-content h1 {
+  color: #4b0082;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.about-content p {
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

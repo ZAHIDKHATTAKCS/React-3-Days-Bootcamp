@@ -1,0 +1,82 @@
+/* Auth.css */
+
+.auth-section {
+    background-image: url('https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?_gl=1*9kb6wi*_ga*MTc5MDAzNTYxMy4xNzUxMzQ1NzQy*_ga_8JE65Q40S6*czE3NTEzNDU3NDIkbzEkZzEkdDE3NTEzNDU3NTQkajQ4JGwwJGgw');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* overlay for readability */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 40px;
+}
+
+.auth-container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.auth-container h1 {
+    color: #4b0082;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-container input {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.auth-container input:focus {
+    outline: 2px solid #4b0082;
+}
+
+.auth-container button {
+    background-color: hotpink;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+    background-color: #ff69b4;
+}
+
+.auth-container p {
+    margin-top: 15px;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.auth-container a {
+    color: hotpink;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
