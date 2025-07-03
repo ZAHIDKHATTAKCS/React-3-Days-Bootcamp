@@ -1,8 +1,8 @@
 import React from 'react'
-import StudentPropsData1 from './components/StudentPropsData1'
-import StudentPropsData2 from './components/StudentPropsData2'
-import StateManagement from './Components/StateManagement';
-import StateManagment2 from './Components/StateManagment2';
+// import StudentPropsData1 from './components/StudentPropsData1'
+// import StudentPropsData2 from './components/StudentPropsData2'
+// import StateManagement from './Components/StateManagement';
+// import StateManagment2 from './Components/StateManagment2';
 import ChangeBackground from './Components/ChangeBackground';
 import './App.css';
 import ThemeChangingTask from './Components/ThemeChangingTask';
